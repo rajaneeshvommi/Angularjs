@@ -1,0 +1,30 @@
+<!doctype html>
+<html ng-app="ninja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <script type="text/javascript" src="bootstrap/js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="angularjs/angular.js"></script>
+        <script type="text/javascript" src="angularjs/angular-animate.js"></script>
+        <script type="text/javascript" src="angularjs/angular-route.js"></script>
+        <script type="text/javascript" src="angularjs/angular-sanitize.js"></script>
+        
+        
+        <script type="text/javascript" src="assets/js/app.js"></script>
+        <script type="text/javascript" src="assets/js/approute.js"></script>
+        <script type="text/javascript" src="assets/js/appdirective.js"></script>
+        
+        
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/Index.css">
+        
+    </head>  
+    <body>
+      <ng-include src="'Navbar.html'" ></ng-include>
+                     
+        <main ng-view></main>
+    </body>
+
+</html>

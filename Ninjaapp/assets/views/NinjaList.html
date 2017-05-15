@@ -1,0 +1,39 @@
+<div class="container">
+        <div class="jumbotron" >
+            <form class="form-group">
+                <div class="row">
+                    <button type="button" class="btn btn-success " ng-click="OrderByMe('name')">Order by Name</button>
+                    <button type="button" class="btn btn-success " ng-click="OrderByMe('belt')" style="float:right" >Order by Belt</button>
+                </div>
+                <br>
+                <input type="text" class="form-control" placeholder="Search the ninja" ng-model="search">
+            </form>
+            <div class="table-responsive">
+                <table class="table table-striped"  >
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Blet</th>
+                        <th>Rate</th>
+                        
+                    </tr>
+                    </thead>
+                    <tbody ng-repeat="Ninja in Ninjas | orderBy:myOrder | filter: search " class="ninja-list" >
+                    <tr>
+                        <td><span><img ng-src="{{Ninja.tumb}}" width="50px" height="50px" style="margin-right:10px" ></span>{{Ninja.name}}</td>
+                        <td style="background:{{Ninja.belt}}">{{Ninja.belt}}</td>
+                        <td>{{Ninja.rate | currency:"$"}}<span><div ng-click="RemoveNinja(Ninja)">X</div></span></td>
+                        
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <form class="form-group" ng-submit="AddNinja()">
+               <label>Name:</label> <input class="form-control" type="text" ng-model="newNinja.name">
+                <label>Belt:</label><input class="form-control" type="text" ng-model="newNinja.belt">
+                <label>Rate:</label><input class="form-control" type="number" ng-model="newNinja.rate">
+                <br>
+                <input type="submit" class="btn btn-success" value="submit" style="float:right">
+                 </form>
+            </div>
+        </div>    

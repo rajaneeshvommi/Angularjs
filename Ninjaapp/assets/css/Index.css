@@ -1,0 +1,19 @@
+main.ng-enter{
+    transition:0.5s linear all;
+    opacity:0
+}
+
+main.ng-enter.ng-enter-active{
+    opacity:1;
+}
+
+.ninja-list tbody.tr.td.ng-enter{
+       transition:0.2s linear all;
+    opacity:0
+        transform: translateY(30px);
+}
+.ninja-list tbody.tr.td.ng-enter.ng-enter-active{
+    opacity:1;
+    transform: translateY(0);
+    
+}

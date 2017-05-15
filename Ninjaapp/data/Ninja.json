@@ -1,0 +1,39 @@
+{
+    "ninjas":
+    [
+    
+    {   "name":"yoshi",
+        "belt":"green",
+        "rate":"50",
+        "Div":"X",
+        "tumb":"content/Image0.jpg",
+        "available": true
+    
+    },
+    {
+        "name":"crystal",
+        "belt":"red",
+        "rate":"10",
+        "Div":"X",
+        "tumb":"content/Image1.png",
+        "available": true
+        
+    },
+    {    "name":"ryu",
+        "belt":"orange",
+        "rate":"20",
+        "Div":"X",
+     "tumb":"content/Image2.jpg",
+        "available": true
+    },
+    {
+        "name":"shaun",
+        "belt":"blue",
+        "rate":"20",
+        "Div":"X",
+        "tumb":"content/Image3.jpg",
+        "available": false
+    }
+   
+]
+}
