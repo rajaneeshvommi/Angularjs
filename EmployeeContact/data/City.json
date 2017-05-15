@@ -1,0 +1,254 @@
+{
+        "cities": 
+        [
+            {
+            "name":"Four Points By Sheraton",
+            "distance":"10.7km to city centre",
+            "thumb":"content/Image.jpg",
+            "city":"vizag"
+            },
+        
+            {
+            "name":"Treebo Mvp Grand",
+             "distance":"10.7km to city centre",
+             "thumb":"content/Image1.jpg",
+            "city":"vizag"
+            },
+            {
+            "name":"Novotel Visakhaptnam",
+             "distance":"10.7km to city centre",
+             "thumb":"content/Image2.jpg",
+            "city":"vizag"
+            },
+            {
+            "name":"ITC WelcomHotel Grand Bay",
+             "distance":"10.7km to city centre",
+             "thumb":"content/Image.jpg",
+                "city":"vizag"
+            },
+            {
+            "name":"The Park",
+             "distance":"10.7km to city centre",
+            "thumb":"content/Image.jpg",
+                "city":"vizag"
+            },
+            {
+            "name":"Green Park",
+             "distance":"10.7km to city centre",
+            "thumb":"content/Image.jpg",
+                "city":"vizag"
+            },
+            {
+            "name":"Supreme Vizag",
+             "distance":"10.7km to city centre",
+             "thumb":"content/Image.jpg",
+                "city":"vizag"
+            },
+            {
+            "name":"The Gateway Beach Road",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            },
+            {
+            "name":"Saaket",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg"
+                ,
+                   "city":"vizag"
+            },
+            {
+            "name":"Fortune Inn Sree Kanya",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            },
+            {
+            "name":"Winsar Park",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            },
+            {
+            "name":"Dolphin Visakhapatnam",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            },
+            {
+            "name":"Dolphin Visakhapatnam",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            },
+            {
+            "name":"Best Western Ramachandra",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            },
+            {
+            "name":"Ritz Comfort",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            },
+            {
+            "name":"Quality inn Bez Krishnaa",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            },
+            {
+            "name":"Landmark Hotel",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            },
+            {
+            "name":"Rajdhani Hotel",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            },
+            {
+            "name":"Anupama",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            }, 
+            {
+            "name":"Vb Grand",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            },
+            {
+            "name":"Athidi Inn",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            },
+            {
+            "name":"White Villa",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            }, 
+            {
+            "name":"Oyo Premium Chiralaya Road",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            }, 
+            {
+            "name":"Meghalaya",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            }, 
+            {
+            "name":"The Bheemli",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            },
+            {
+            "name":"Vijayabhanu",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            }, 
+            {
+            "name":"Kinnera Comforts",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"vizag"
+            },
+            {
+            "name":"Vijayabhanu",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"Hyderbad"
+            }, 
+            {
+            "name":"Kinnera Comforts",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"Hyderbad"
+            },
+            {
+            "name":"Vijayabhanu",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"Hyderbad"
+            }, 
+            {
+            "name":"Kinnera Comforts",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"Hyderbad"
+            },
+            {
+            "name":"Vijayabhanu",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"Hyderbad"
+            }, 
+            {
+            "name":"Kinnera Comforts",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"Hyderbad"
+            },  
+            {
+            "name":"Vijayabhanu",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"Hyderbad"
+            }, 
+            {
+            "name":"Kinnera Comforts",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"Hyderbad"
+            },
+            {
+            "name":"Vijayabhanu",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"Hyderbad"
+            }, 
+            {
+            "name":"Kinnera Comforts",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"Hyderbad"
+            },
+            {
+            "name":"Vijayabhanu",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"Hyderbad"
+            }, 
+            {
+            "name":"Kinnera Comforts",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"Hyderbad"
+            },
+            {
+            "name":"Vijayabhanu",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"Hyderbad"
+            },
+            {
+            "name":"Kinnera Comforts",
+             "distance":"10.7km to city centre",
+                 "thumb":"content/Image.jpg",
+                   "city":"Hyderbad"
+            }
+        ]
+    
+}

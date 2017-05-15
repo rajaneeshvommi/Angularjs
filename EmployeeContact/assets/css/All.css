@@ -1,0 +1,77 @@
+.middel{
+    width:500px;
+    margin:auto;
+}
+
+.mapwidth{
+    width:100%;
+    height:500px;
+}
+
+.movright{
+    float:right;
+}
+
+.wallcolor{
+    background-color: #080808;
+    color: white;
+}
+
+.videocontainer
+{
+    width:50%;
+    height: 50%;
+    position:fixed;
+    top:100px;
+    right:500px;
+    background-color: #0f0f0f;
+
+}
+
+fieldset.scheduler-border {
+    border: 0.5px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;
+    color: white;
+}
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width:auto;
+    padding:0 10px;
+    border-bottom:none;
+}
+
+input.form-contol
+{
+    width:auto;
+}
+
+table, td, th {
+    border: 0.5px groove #ddd !important;
+}
+
+.indexbody{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.homevideo{
+    position:relative;
+
+
+}
+
+.Datacontainer{
+        background-color: maroon; 
+        margin: 10px 10px;
+        border: 2px solid white;
+        border-radius: 2px;
+        
+       
+}

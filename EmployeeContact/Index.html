@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Third party Libs -->
+    <script type="text/javascript" src="bootstrap/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="angularjs/angular.js"></script>
+    <script type="text/javascript" src="angularjs/angular-route.js"></script>
+
+    <!--Own library -->
+    <script type="text/javascript" src="assets/js/Route.js"></script>
+    <script type="text/javascript" src="assets/js/Mydirective.js"></script>
+    <script type="text/javascript" src="assets/js/Myfactory.js"></script>
+    <script type="text/javascript" src="assets/js/Mycontroller.js"></script>
+
+    <!-- Css libs -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/All.css">
+
+    <title>Empolyee-Login</title>
+</head>
+<body >
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mytoggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img class="img-circle " width="100px" height="75px" src="assets/images/logo.png">
+            </div>
+            <div class="collapse navbar-collapse" id="mytoggle">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/"><h4>Home</h4></a></li>
+                    <li><a href="#About"><h4>About</h4></a></li>
+                    <li><a href="#Contact"><h4>Contact</h4></a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">
+                            <h4>JobFair<span class="caret"></span></h4></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#Personal"><h4>Personal</h4></a></li>
+                            <li><a href="#Education"><h4>Education</h4></a></li>
+                            <li><a href="#Career"><h4>Career</h4></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="text" class="form-control" list="Cities" style="margin-top: 20px">
+                     <datalist id="Cities">
+	                           <option value="Hyderdad"></option>
+	                           <option value="Vizag"></option>
+                                <option value="Mumbai"></option> 
+                                <option value="Chennai"></option>
+                            </datalist>
+                    </li>
+                  </ul>
+                  
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#SignUp"><span class="glyphicon glyphicon-user"></span><label style="padding:10px">Sign Up</label></a></li>
+                    <li><a href="#Login"><span class="glyphicon glyphicon-log-in"></span><label  style="padding:10px" >Login</label></a></li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+
+    <div ng-view style="position:relative"></div>
+</body>
+</html>

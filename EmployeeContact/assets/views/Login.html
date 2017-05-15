@@ -1,0 +1,38 @@
+<body>
+    <div class="panel panel-default middel wallcolor" >
+        <div class="panel-heading" style=" background-color: #080808; color: white;">
+            <h1>Login</h1>
+        </div>
+        <div class="panel-body">
+            <form class="form-group" name="login">
+
+                <label>Email</label><input class="form-control" name="Email" type="email" ng-model="user.email" placeholder="Email" required>
+                <div>
+                    <span ng-show="login.Email.$dirty && login.Email.$invalid">
+                        <span ng-show="login.Email.$error.required">Enter the Email</span>
+                        <span ng-show="login.Email.$error.email">Invalid Email</span>
+                    </span>
+                </div>
+                <br>
+                <label>Password</label><input class="form-control" name="password" ng-model="user.password" placeholder="password" type="password" required>
+                <div>
+                    <span ng-show="login.password.$dirty && login.password.$invalid">
+                        <span ng-show="login.password.$error.required">Enter the Password</span>
+                    </span>
+                </div>
+                <br>
+                <div class="row">
+                <div class="col-lg-6">
+                    <input type="checkbox" class="form-group-sm"><label>Remember Me</label>
+                </div>
+                <div class="col-lg-6">
+                    <button class="btn btn-success movright" type="button" ng-click="compare()">SignIn</button>
+                </div>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+
+</body>

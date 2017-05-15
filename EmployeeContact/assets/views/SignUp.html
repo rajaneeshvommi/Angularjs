@@ -1,0 +1,67 @@
+<body>
+    <div class="panel panel-default middel wallcolor" >
+        <div class="panel-heading" style=" background-color: #080808;color: white;">
+            <h1>SignUp</h1>
+        </div>
+            <div class="panel-body" >
+                    <form class="form-group" name="signup">
+                        <div class="row">
+                            <div class="col-lg-6"><input class="form-control" type="text"  placeholder="FirstName" ng-model="First" name="First" required>
+                                <span ng-show="signup.First.$dirty && signup.First.$invalid">
+                                    <span ng-show="signup.First.$error.required">Please enter First name</span>
+                                </span>
+                            </div>
+                            <div class="col-lg-6"><input class="form-control" type="text" placeholder="LastName" ng-model="Last" name="Last"required>
+                                <span ng-show="signup.Last.$dirty && signup.Last.$invalid">
+                                    <span ng-show="signup.Last.$error.required">Please enter Last name</span>
+                                </span>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-6"><input class="form-control" type="text"  placeholder="UserName" ng-model="user" name="user" required>
+                                <span ng-show="signup.user.$dirty && signup.user.$invalid">
+                                    <span ng-show="signup.user.$error.required">Please enter User name</span>
+                                </span>
+                            </div>
+
+                            <div class="col-lg-6"><input class="form-control" type="tel" placeholder="Phone" ng-model="Phone" name="Phone" required>
+                                <span ng-show="signup.Phone.$dirty && signup.Phone.$invalid">
+                                    <span ng-show="signup.Phone.$error.required">Please enter Phone number</span>
+                                </span>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-12"><input class="form-control" type="email"  placeholder="Email" name="Email" ng-model="Email" required>
+                                <span ng-show="signup.Email.$dirty && signup.Email.$invalid">
+                                    <span ng-show="signup.Email.$error.required">Please enter Email Id</span>
+                                     <span ng-show="signup.Email.$error.email">Invalid  Email Id</span>
+                                </span>
+                            </div>
+                        </div>
+                        <br>
+                        <div class ="row">
+                            <div class="col-lg-6"><input class="form-control" type="password" placeholder="Password" name="Password" ng-model="Password" required>
+                                <span ng-show="signup.Password.$dirty && signup.Password.$invalid">
+                                    <span ng-show="signup.Password.$error.required">Please enter password </span>
+                                </span>
+                            </div>
+                            <div class="col-lg-6"><input class="form-control" type="password" placeholder="repeat-Password" name="repeatpass" ng-model="repeatpass" required>
+                                <span ng-show="signup.repeatpass.$dirty && signup.repeatpass.$invalid">
+                                    <span ng-show="signup.repeatpass.$error.required">Please enter password </span>
+                                </span>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <button type="button" class="btn btn-success movright" >Submit</button>
+                        </div>
+
+                    </form>
+
+            </div>
+    </div>
+
+
+</body>

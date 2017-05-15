@@ -1,0 +1,62 @@
+
+<head>
+
+    <!-- google Script -->
+    <script src="https://maps.googleapis.com/maps/api/js?callback=GoogleMap" async></script>
+    <script>
+        function GoogleMap(){
+
+            var Gmap= document.getElementById("map");
+
+            var MyMap =
+            {
+                center: new google.maps.LatLng(51.00, 0.777),
+                zoom:6,
+                mapTypeId: google.maps.MapTypeId.HYBRID
+            };
+
+            var map = new google.maps.Map(Gmap,MyMap)
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron" style="background-color: #0f0f0f;color:white">
+            <div class="text-center"><h1>Contact</h1></div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                       <p>We will get back to you in 24 hours</p>
+                        <p><span class="glyphicon glyphicon-map-marker">Visahkapatnam</span></p>
+                        <p><span class="glyphicon glyphicon-phone">+7995106880</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <textarea class="form-control" placeholder="Additional Information"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="map" class="mapwidth"></div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

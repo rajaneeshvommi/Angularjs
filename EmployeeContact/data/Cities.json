@@ -1,0 +1,24 @@
+{
+	"cities": [{
+
+		"hyderabad": {
+
+			"bikes": ["honda", "zvx", "cbz"],
+			"hotels": ["sarvani", "sirisha", "raj"]
+		},
+
+
+		"vizag": {
+
+			"bikes": ["hero", "bolero", "toyota"],
+			"hotels": ["shiva", "katyayani", "srilaxmi"]
+		},
+
+		"srikakulam": {
+
+			"bikes": ["sunny", "chetak", "tcs"],
+			"hotels": ["trinadh", "lahari", "lasyapriya"]
+		}
+
+	}]
+}

@@ -1,0 +1,51 @@
+<body>
+    <div class="container-fluid" >
+        <div class="jumbotron"  style=" background-color: #080808;color: white;">
+            <div class="text-center" ng-hide="search">
+                <h2 ><span>Find you idea hotel</span></h2>
+                <h2><span>for best price</span></h2>
+            </div>
+            <div>
+                <from>
+                    <!-- search box -->
+                    <div class="input-group col-lg-6 col-lg-offset-3">
+                        <input type="text" class="form-control" placeholder="e.g. Vizag" ng-model="search" list="countries" value="vizag"/>
+                            <datalist id="countries">
+	                           <option value="vizag">
+	                           <option value="Hyderbad">
+                            </datalist>
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary" type="button" ng-click="click()">Search</button>
+                            </span>
+                    </div>
+                    <br>
+                    <div class="input-group col-lg-6 col-lg-offset-3">
+                     <input type="text" class="form-control" placeholder="e.g. Hotel" ng-model="search" list="countries" value="Hotels"/>
+                        <datalist id="countries">
+	                           <option value="Hotels"></option>
+	                           <option value="Places"></option>
+                                <option value="Schools"></option> 
+                                <option value="Bikes"></option>
+                            </datalist>
+                        <span class="input-group-btn">
+                                <button class="btn btn-primary" type="button">Search</button>
+                            </span>
+                    </div>
+                </from>
+            </div>
+                <br>
+                    <div ng-repeat="Hoteldata in citydata | filter:search" class="Datacontainer" ng-if="search">
+                        <div class="row" >
+                            <div class="col-lg-2 col-sm-2 col-md-2">
+                                <img ng-src="{{Hoteldata.thumb}}"  class="img-thumbnail" width="100px" heigth="100px" style="margin:10px 10px">
+                            </div>
+                            <div class="col-lg-4 col-sm-4 col-md-4">
+                                <h3>{{Hoteldata.name}}</h3>
+                                <p><h5>{{Hoteldata.distance}}</h5></p>
+                                <p><h5>{{Hoteldata.city}}</h5></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
